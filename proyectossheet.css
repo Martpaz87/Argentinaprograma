@@ -1,0 +1,95 @@
+body{
+    background-color: #e5f5b8;
+    font-family: 'Roboto Slab', serif;
+}
+
+div > img{
+    border-radius: 50%;
+    border: #feceab;
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    display: block;
+}
+@media (max-width: 600px) {
+    .navegador{
+        background: #0e9b09;
+        display:inline;
+    }   
+}
+div{
+   background-color: #2a363b;
+   border-style:outset;
+   border-color: aliceblue;
+   
+}
+.texto-imagen{ 
+    margin:auto;
+    text-align: center;
+    text-shadow: 2px 2px rgb(3, 97, 118);
+    background-color: #477b96;   
+}
+div > p{
+    font-size: large;
+    font-weight:bold;
+}
+nav > ul{
+    margin:auto;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 20px;
+}
+a{
+    color: #e84a5f;
+    text-decoration: double;
+}
+a:hover{
+    color: #c60472;
+}
+.navegador{
+    display:flex;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.presentacion{
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: larger;
+}
+section{
+    background-color: #b3e6b0;
+    border: #2a363b;
+    border-style: double;
+    font-size: large;
+    padding: 5%;
+    margin:1%;
+    display:block;
+}
+h2{
+    font-weight: bolder;
+    border-style:inset;
+}
+button{
+    color:#2a363b;
+    display:flex;
+    padding: 5px;
+    border: 5px; 
+    border-style:groove;
+    border-color: #2a363b;
+    margin: auto;
+    background-color: #b3e6b0;
+    font-size: medium;
+}
+footer{
+    background-color: #feceab;
+    padding: 10px;
+    margin: 1%;
+    border-style: inset;
+    border-color: #2a363b;
+}
+.oculta{
+    display:none;
+}
